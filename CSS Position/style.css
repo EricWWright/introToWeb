@@ -1,0 +1,47 @@
+.box {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+#container {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 500px;
+    height: 700px;
+}
+
+#space {
+    padding-bottom: 1500px;
+}
+
+#static {
+    position: static;
+     left: 100px; /* useless */
+    top: 100px; /* useless */
+}
+
+#relative {
+    position: relative;
+    left: 100px;
+    top: 0;
+}
+
+#absolute {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+#fixed {
+    position: fixed;
+    left: 400px;
+    top: 400px;
+}
+
+#sticky {
+    position: sticky;
+    top: 100;
+}
