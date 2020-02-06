@@ -1,0 +1,49 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("bg.jpg");
+}
+#container {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+}
+.box {
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid cornflowerblue;
+    height: 300px;
+    width: 250px;
+}
+.box:hover {
+    border: 5px solid red;
+    height: 400px;
+    width: 350px;
+    background-color: blanchedalmond;
+}
+.box h2 {
+    border: 2px solid red;
+    padding: 5px;
+    text-align: center;
+}
+
+@media all and (max-width: 750px) {
+    #container {
+        flex-direction: column;
+    }
+    #box1 {
+        order: 1;
+    }
+    #box2 {
+        order: 2;
+    }
+    #box3 {
+        order: 3;
+    }
+    #box4 {
+        order: 4;
+    }
+    #box5 {
+        order: 5;
+    }
+}

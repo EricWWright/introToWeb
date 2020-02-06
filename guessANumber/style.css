@@ -1,0 +1,48 @@
+html {
+    font-family: 'Source Code Pro', monospace;
+    background: #9CECFB;
+    background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.container > .object {
+    align-items: center;
+    margin: 25px;
+}
+input {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    height: auto;
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+#submit_button {
+    border: 5px solid black;
+    height: 50px;
+    width: max-content;
+    font-size: 2.5em;
+    color: white;
+    background-color: #222;
+    border-radius: 5px;
+}
+#submit_button:hover {
+    border: 5px solid gray;
+}
+#output {
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    font-size: 3em;
+    text-align: center;
+}

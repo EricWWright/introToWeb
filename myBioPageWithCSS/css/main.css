@@ -1,23 +1,38 @@
+/* #0D37FF #0C6CE8 #01B1FF #0CE0E8 #0DFFC4 */
 html {
+    user-select: none;
     font-family: 'Source Code Pro', monospace;
-    background: #9CECFB;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(13,55,255);
+    background: -moz-linear-gradient(90deg, rgba(13,55,255,1) 0%, rgba(12,108,232,1) 20%, rgba(1,177,255,1) 40%, rgba(12,224,232,1) 60%, rgba(13,255,196,1) 80%);
+    background: -webkit-linear-gradient(90deg, rgba(13,55,255,1) 0%, rgba(12,108,232,1) 20%, rgba(1,177,255,1) 40%, rgba(12,224,232,1) 60%, rgba(13,255,196,1) 80%);
+    background: linear-gradient(90deg, rgba(13,55,255,1) 0%, rgba(12,108,232,1) 20%, rgba(1,177,255,1) 40%, rgba(12,224,232,1) 60%, rgba(13,255,196,1) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d37ff",endColorstr="#0dffc4",GradientType=1);
 
 }
-h1 {
-    color: #55DDE0;
+body {
+    margin: 10px;
+}
+h1 h2 {
+    color: #01B1FF;
 }
 p {
-    color: #87F1FF;
+    color: #0CE0E8;
     font-size: 16px;
 }
-#gif {
-
+section {
+    width: 400px;
 }
-#react {
-
+header {
+    height: fit-content;
+    width: fit-content;
 }
-#BASS {
-    
+footer {
+    height: fit-content;
+    width: fit-content;
+}
+a {
+    text-decoration: none;
+}
+#me {
+    border-radius: 10px;
 }

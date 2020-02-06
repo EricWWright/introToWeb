@@ -1,0 +1,9 @@
+/* #0D37FF #0C6CE8 #01B1FF #0CE0E8 #0DFFC4 */
+body {
+    background-image: url('/myBioPageWithCSS/pictures/bg_image.png');
+    color: #0D37FF;
+}
+img {
+    border: 2px solid #0DFFC4;
+    border-radius: 5px;
+}
